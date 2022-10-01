@@ -17,7 +17,7 @@ import io.cucumber.junit.CucumberOptions;
 		dryRun = false,
 
 		
-		tags = "@Smoke",
+		tags = "@GoogleTranslate",
 
 		monochrome = true, 
 		
@@ -27,7 +27,9 @@ import io.cucumber.junit.CucumberOptions;
 				
 				"html:htmlreports/cucumber-default-report.html",
 				
-				"rerun:target/failed.txt"
+				"rerun:target/failedScenarios/failed.txt",
+				
+				"json:target/cucumber.json"
 				
 				}
 

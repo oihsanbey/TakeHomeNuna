@@ -20,6 +20,15 @@ public class GoogleTranslatePageElements extends BaseClass {
 	@FindBy(xpath="//span[@jsname='W297wb']")
 	public WebElement translatedTextEl;
 	
+	@FindBy(xpath="//button[@jsname='dnDxad']")
+	public WebElement swapButton;
+	
+	@FindBy(xpath = "//a[@class='ita-kd-icon-button ita-kd-inputtool-icon ita-kd-small ita-kd-left']")
+	public WebElement screenKeyboard;
+	
+	@FindBy(xpath="//button[@aria-label='Clear source text']")
+	public WebElement clearSourceTextButton;
+	
 
 public GoogleTranslatePageElements() {
 	

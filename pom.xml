@@ -96,38 +96,10 @@
 				<version>3.0.0-M5</version>
 				<configuration>
 					<includes>
-						<include></include>
+						<include>**/*TestRunner.java</include>
 					</includes>
 					<testFailureIgnore>true</testFailureIgnore>
 				</configuration>
-			</plugin>
-
-<plugin>
-				<groupId>net.masterthought</groupId>
-				<artifactId>maven-cucumber-reporting</artifactId>
-				<version>5.7.0</version>
-				<executions>
-					<execution>
-						<id>execution</id>
-						<phase>test</phase>
-						<goals>
-							<goal>generate</goal>
-						</goals>
-						<configuration>
-							<projectName>TakeHomeTest</projectName>
-
-							<!-- output directory for the generated report -->
-							<outputDirectory>${project.build.directory}/cucumber-report-html</outputDirectory>
-							<!-- optional, defaults to outputDirectory if not specified -->
-							<inputDirectory>${project.build.directory}</inputDirectory>
-							<jsonFiles>
-								<!-- supports wildcard or name pattern -->
-								<param>**/*.json</param>
-							</jsonFiles>
-
-						</configuration>
-					</execution>
-				</executions>
 			</plugin>
 
 			

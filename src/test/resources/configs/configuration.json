@@ -9,8 +9,14 @@
 	
 	 "initialText" : "Frieden", 
 	 
-	 "expectedText" : "Paz",
+	 "expectedText" : "Paz"
 	 
+	 "swapExpectedText" : "Frieden",
+	 
+	 "sentKey1" : "h",
+	 
+	 "sentKey2" : "i",
+	 
+	 "expectedText2":"Hola"
 	
-
 }
