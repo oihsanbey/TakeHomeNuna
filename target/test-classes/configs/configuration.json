@@ -1,0 +1,16 @@
+{
+	 "browser"   : "chrome",
+	 
+	 "url"  : "https://translate.google.com",
+	
+	 "sourceLang": "German", 
+	
+	 "translationLang": "Spanish",
+	
+	 "initialText" : "Frieden", 
+	 
+	 "expectedText" : "Paz",
+	 
+	
+
+}
